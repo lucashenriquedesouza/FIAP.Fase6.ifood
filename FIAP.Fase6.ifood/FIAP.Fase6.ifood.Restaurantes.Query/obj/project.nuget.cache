@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "IVrfwCmf44h4NCeRxeoDKnRG2yt9619y1yledn5t90nyidCmceXf7SBNb5XAzLZgBHjmIeQMLSp+0FSjwi2NFA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\2160000705\\source\\repos\\FIAP.Fase6.ifood\\FIAP.Fase6.ifood.Restaurantes.Query\\FIAP.Fase6.ifood.Restaurantes.Query.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\2160000705\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\2160000705\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\2160000705\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
+    "C:\\Users\\2160000705\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\2160000705\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\2160000705\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\2160000705\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
