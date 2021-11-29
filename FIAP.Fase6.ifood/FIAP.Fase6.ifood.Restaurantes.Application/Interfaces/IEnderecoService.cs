@@ -1,6 +1,6 @@
 ﻿using FIAP.Fase6.ifood.Restaurantes.Application.ViewModels;
 
-namespace FIAP.Fase6.ifood.Restaurantes.Application.Services
+namespace FIAP.Fase6.ifood.Restaurantes.Application.Interfaces
 {
     public interface IEnderecoService
     {

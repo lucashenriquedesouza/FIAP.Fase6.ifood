@@ -1,4 +1,4 @@
-﻿using FIAP.Fase6.ifood.Restaurantes.Application.Interfeces;
+﻿using FIAP.Fase6.ifood.Restaurantes.Application.Interfaces;
 using FIAP.Fase6.ifood.Restaurantes.Application.Services;
 using FIAP.Fase6.ifood.Restaurantes.Domain.Interfaces.Respositories;
 using FIAP.Fase6.ifood.Restaurantes.Infra.Repositories.InMemory;
@@ -13,6 +13,7 @@ namespace FIAP.Fase6.ifood.Restaurantes.Infra.CrossCutting
             //Services
             services.AddScoped<IRestauranteService, RestauranteService>();
             services.AddScoped<IEnderecoService, EnderecoService>();
+            services.AddScoped<IProdutoService, ProdutoService>();
 
             //Repositories
             services.AddScoped<IEnderecoCommandRepository, EnderecoCommandRepository>();

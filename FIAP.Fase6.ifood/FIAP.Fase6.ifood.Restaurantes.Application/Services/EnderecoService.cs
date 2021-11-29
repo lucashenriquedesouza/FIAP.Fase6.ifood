@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using FIAP.Fase6.ifood.Restaurantes.Application.Interfeces;
+using FIAP.Fase6.ifood.Restaurantes.Application.Interfaces;
 using FIAP.Fase6.ifood.Restaurantes.Application.ViewModels;
 using FIAP.Fase6.ifood.Restaurantes.Domain.Interfaces.Respositories;
 using FIAP.Fase6.ifood.Restaurantes.Domain.Models;
@@ -39,9 +39,9 @@ namespace FIAP.Fase6.ifood.Restaurantes.Application.Services
 
         public async Task<EnderecoViewModel> Update(Guid idRestaurante, EnderecoViewModel enderecoViewModel)
         {
-            var Restaurante = _mapper.Map<Endereco>(enderecoViewModel);
+            var Endereco = _mapper.Map<Endereco>(enderecoViewModel);
 
-            return _mapper.Map<EnderecoViewModel>(await _enderecoCommandRepository.Update(Restaurante));
+            return _mapper.Map<EnderecoViewModel>(await _enderecoCommandRepository.Update(Endereco));
         }
     }
 }

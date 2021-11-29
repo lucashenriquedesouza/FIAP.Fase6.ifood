@@ -1,4 +1,5 @@
-﻿using FIAP.Fase6.ifood.Restaurantes.Application.Services;
+﻿using FIAP.Fase6.ifood.Restaurantes.Application.Interfaces;
+using FIAP.Fase6.ifood.Restaurantes.Application.Services;
 using FIAP.Fase6.ifood.Restaurantes.Application.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -64,7 +65,7 @@ namespace FIAP.Fase6.ifood.Restaurantes.Controllers
         }
 
         [HttpPut]
-        public async Task<IActionResult> Update(Guid idRestaurante, EnderecoViewModel EnderecoViewModel)
+        public async Task<IActionResult> Update(Guid idRestaurante, EnderecoViewModel enderecoViewModel)
         {
             try
             {
@@ -73,7 +74,7 @@ namespace FIAP.Fase6.ifood.Restaurantes.Controllers
                     return BadRequest(ModelState.Values);
                 }
 
-                return Ok(await _enderecoService.Update(idRestaurante, EnderecoViewModel));
+                return Ok(await _enderecoService.Update(idRestaurante, enderecoViewModel));
             }
             catch (Exception)
             {

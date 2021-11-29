@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using FIAP.Fase6.ifood.Restaurantes.Application.Interfeces;
+using FIAP.Fase6.ifood.Restaurantes.Application.Interfaces;
 using FIAP.Fase6.ifood.Restaurantes.Application.ViewModels;
 using FIAP.Fase6.ifood.Restaurantes.Domain.Interfaces.Respositories;
 using FIAP.Fase6.ifood.Restaurantes.Domain.Models;

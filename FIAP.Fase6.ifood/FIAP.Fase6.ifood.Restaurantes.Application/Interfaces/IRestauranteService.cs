@@ -1,7 +1,7 @@
 ﻿using FIAP.Fase6.ifood.Restaurantes.Application.ViewModels;
 using FIAP.Fase6.ifood.Restaurantes.Domain.Models;
 
-namespace FIAP.Fase6.ifood.Restaurantes.Application.Interfeces
+namespace FIAP.Fase6.ifood.Restaurantes.Application.Interfaces
 {
     public interface IRestauranteService
     {

@@ -1,4 +1,4 @@
-﻿using FIAP.Fase6.ifood.Restaurantes.Application.Interfeces;
+﻿using FIAP.Fase6.ifood.Restaurantes.Application.Interfaces;
 using FIAP.Fase6.ifood.Restaurantes.Application.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System;
