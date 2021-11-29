@@ -12,6 +12,7 @@ namespace FIAP.Fase6.ifood.Restaurantes.Infra.CrossCutting
         {
             //Services
             services.AddScoped<IRestauranteService, RestauranteService>();
+            services.AddScoped<IEnderecoService, EnderecoService>();
 
             //Repositories
             services.AddScoped<IEnderecoCommandRepository, EnderecoCommandRepository>();

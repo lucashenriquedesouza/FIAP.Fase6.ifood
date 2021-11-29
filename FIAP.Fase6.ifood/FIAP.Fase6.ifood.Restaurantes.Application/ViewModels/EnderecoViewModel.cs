@@ -1,10 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace FIAP.Fase6.ifood.Restaurantes.Application.ViewModels
 {
@@ -13,46 +8,38 @@ namespace FIAP.Fase6.ifood.Restaurantes.Application.ViewModels
         [Key]
         public Guid Id { get; set; }
 
-        [Required(ErrorMessage = "Nome Requerido")]
+        [Required(ErrorMessage = "Logradouro Requerido")]
         [MinLength(2)]
         [MaxLength(100)]
-        [DisplayName("Nome")]
+        [DisplayName("Logradouro")]
         public string? Logradouro { get; set; }
 
-        [Required(ErrorMessage = "Nome Requerido")]
+        [Required(ErrorMessage = "Cidade Requerido")]
         [MinLength(2)]
         [MaxLength(100)]
-        [DisplayName("Nome")]
+        [DisplayName("Cidade")]
         public string? Cidade { get; set; }
 
-        [Required(ErrorMessage = "Nome Requerido")]
+        [Required(ErrorMessage = "Bairro Requerido")]
         [MinLength(2)]
         [MaxLength(100)]
-        [DisplayName("Nome")]
+        [DisplayName("Bairro")]
         public string? Bairro { get; set; }
 
-        [Required(ErrorMessage = "Nome Requerido")]
-        [MinLength(2)]
-        [MaxLength(100)]
-        [DisplayName("Nome")]
+        [Required(ErrorMessage = "Numero Requerido")]
+        [DisplayName("Numero")]
         public int? Numero { get; set; }
 
-        [Required(ErrorMessage = "Nome Requerido")]
+        [Required(ErrorMessage = "Complemento Requerido")]
         [MinLength(2)]
         [MaxLength(100)]
-        [DisplayName("Nome")]
+        [DisplayName("Complemento")]
         public string? Complemento { get; set; }
 
-        [Required(ErrorMessage = "Nome Requerido")]
-        [MinLength(2)]
-        [MaxLength(100)]
-        [DisplayName("Nome")]
+        [Required(ErrorMessage = "Ativo Requerido")]
         public bool Ativo { get; set; }
 
-        [Required(ErrorMessage = "Nome Requerido")]
-        [MinLength(2)]
-        [MaxLength(100)]
-        [DisplayName("Nome")]
+        [Required(ErrorMessage = "Principal Requerido")]
         public bool Principal { get; set; }
     }
 }
