@@ -2,13 +2,7 @@ version: '3.4'
 
 services:
   fiap.fase6.ifood.restaurantes.command:
-    image: ${DOCKER_REGISTRY-}fiapfase6ifoodrestaurantescommand
+    image: ${DOCKER_REGISTRY-}fiapfase6ifoodrestaurantes
     build:
       context: .
-      dockerfile: FIAP.Fase6.ifood.Restaurantes.Command/Dockerfile
-
-  fiap.fase6.ifood.restaurantes.query:
-    image: ${DOCKER_REGISTRY-}fiapfase6ifoodrestaurantesquery
-    build:
-      context: .
-      dockerfile: FIAP.Fase6.ifood.Restaurantes.Query/Dockerfile
+      dockerfile: FIAP.Fase6.ifood.Restaurantes/Dockerfile
